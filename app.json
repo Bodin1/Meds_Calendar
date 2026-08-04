@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Svetolik Kuglice",
-    "slug": "svetolik-kuglice",
+    "slug": "medscalendar",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
