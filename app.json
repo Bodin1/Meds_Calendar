@@ -6,6 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "owner": "Bodin1",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -18,6 +19,11 @@
       },
       "package": "com.svetolik.kuglice"
     },
-    "platforms": ["android"]
+    "platforms": ["android"],
+    "extra": {
+      "eas": {
+        "projectId": "117a4d02-3d6e-4713-9e32-2ec67b83c2a2"
+      }
+    }
   }
 }

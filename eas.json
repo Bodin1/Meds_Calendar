@@ -1,9 +1,16 @@
 {
   "cli": {
-    "version": ">= 16.0.0"
+    "version": ">= 16.0.0",
+    "requireCommit": false
   },
   "build": {
     "preview": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
+    },
+    "production": {
       "distribution": "internal",
       "android": {
         "buildType": "apk"
